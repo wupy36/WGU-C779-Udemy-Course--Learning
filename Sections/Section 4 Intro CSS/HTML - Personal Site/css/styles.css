@@ -1,0 +1,38 @@
+/* new color Scheme: https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 */
+
+body {
+    background-color: #DCD7C9;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: #2C3639;
+    width: 5%;
+}
+h1 {
+    color: #A27B5C;
+}
+
+h3 {
+    color: #3F4E4F;
+}
+
+p {
+    color: #2C3639;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #A27B5C;
+    color:  #2C3639;
+}
